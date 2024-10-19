@@ -123,7 +123,7 @@ class MainActivity : AppCompatActivity() {
 
     // Function to navigate to the Scheduling activity
     private fun navigateToSchedulingPage() {
-        val intent = Intent(this, Scheduling::class.java)
+        val intent = Intent(this, CameraPreview::class.java)
         startActivity(intent)
         finish() // Optional: To close the current MainActivity so the user can't return using the back button
         Log.d("MainActivity", "Navigating to Scheduling page")
