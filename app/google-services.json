@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "877538249106",
+    "project_id": "medimate-4fded",
+    "storage_bucket": "medimate-4fded.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877538249106:android:804b2b43c0eda8e3f3994b",
+        "android_client_info": {
+          "package_name": "eu.tutorials.medimatee"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnMqNpOyKLRerA_8lD20OFEvcO0EHl9Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MediMate</string>
+    <string name="delete_alarm">Delete Alarm</string>
+</resources>

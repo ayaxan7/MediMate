@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_blue"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="118dp"
+        app:srcCompat="@drawable/app_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+    app:layout_constraintTop_toBottomOf="@+id/imageView"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:hintTextColor="@color/green"
+    app:boxStrokeColor="@color/green"
+    app:hintEnabled="true">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputPhone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        android:padding="12dp"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:background="@drawable/rounded_edittext"
+        android:inputType="phone" />
+</com.google.android.material.textfield.TextInputLayout>
+<com.google.android.material.textfield.TextInputLayout
+android:id="@+id/textInputPhone"
+android:layout_width="350dp"
+android:layout_height="wrap_content"
+android:layout_marginTop="20dp"
+app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:hintTextColor="@color/green"
+app:boxStrokeColor="@color/green"
+app:hintEnabled="true">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/inputHardwareId"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Hardware UUID"
+    android:padding="12dp"
+    android:singleLine="true"
+    android:textColor="@android:color/black"
+    android:textColorHint="@android:color/darker_gray"
+    android:background="@drawable/rounded_edittext" />
+</com.google.android.material.textfield.TextInputLayout>
+<androidx.appcompat.widget.AppCompatButton
+android:id="@+id/checkButton"
+android:layout_width="281dp"
+android:layout_height="37dp"
+android:layout_marginTop="25dp"
+    android:background="@drawable/rounded_button"
+    android:text="Submit"
+    android:textColor="@android:color/white"
+    android:textSize="16sp"
+    app:layout_constraintTop_toBottomOf="@+id/textInputPhone"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
